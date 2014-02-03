@@ -1,8 +1,9 @@
 godenv
 ========
 
-Just a wrapper script of direnv, but I think this is enough
+`godenv` enables to set GOPATH environment variable in each project directory. 
 
+This is actually just a wrapper script of [direnv](https://github.com/zimbatm/direnv).
 
 ## How to install
 
@@ -28,4 +29,4 @@ $ godenv new project
 
 You will get `project` directory and `project/.envrc` file. 
 
-As `cd` to the project, `goenvdir` (actually envdir) will loads `.envrc` and set GOPATH, etc automatically. 
+As `cd` to the project, `godenv` (actually envdir) will loads `.envrc` and set GOPATH, etc automatically. 

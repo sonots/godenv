@@ -10,9 +10,8 @@ Just a wrapper script of direnv, but I think this is enough
 git clone http://github.com/zimbatm/direnv
 cd direnv
 make install
-git clone 
+curl https://raw.github.com/sonots/godirenv/master/godirenv -o /usr/local/bin/
 ```
-
 
 ## Add hook to shell
 
